@@ -7,8 +7,7 @@ import AVATAR1 from '../../Assets/esprit.jpg'
 import AVATAR2 from '../../Assets/fst.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import {  Pagination } from 'swiper';
-
+import { Pagination } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -17,13 +16,13 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVATAR1,
-    name: 'ESPRIT : Ecole Sup Privée d Ingénierie et de Technologies',
-    review: ' ESPRIT est un établissement d enseignement supérieur privé, agréé par l État, fondé en 2003'
+    name: 'ESPRIT : Ecole Sup Privée d\'Ingénierie et de Technologies',
+    review: 'ESPRIT est un établissement d\'enseignement supérieur privé, agréé par l\'État, fondé en 2003. Elle fait partie du réseau Honoris United Universities, premier réseau panafricain d\'universités privées. ESPRIT est réputée pour son approche pédagogique innovante et son engagement à former des ingénieurs compétents, prêts à relever les défis du monde professionnel.'
   },
   {
     avatar: AVATAR2,
-    name: 'FST : faculté des sciences tunis',
-    review: ' La faculté des sciences de Tunis ou FST, de son nom complet faculté des sciences mathématiques, physiques et naturelles de Tunis, est une faculté située dans le campus d El Manar à Tunis '
+    name: 'FST : Faculté des Sciences de Tunis',
+    review: 'La faculté des sciences de Tunis ou FST, de son nom complet Faculté des sciences mathématiques, physiques et naturelles de Tunis, est une faculté située dans le campus d\'El Manar à Tunis.'
   }
 ]
 

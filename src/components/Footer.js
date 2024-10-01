@@ -23,8 +23,8 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
+                  href="https://github.com/achrefmej"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -33,8 +33,8 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
+                  href="https://x.com/MejriAchref4?t=hXHuFgDNQBUksmLKAQMEuQ&s=09"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -43,8 +43,8 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
+                  href="https://www.linkedin.com/in/achref-mejri-8a9253179/"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -53,8 +53,8 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
+                  href="https://www.instagram.com/achrefmej?igsh=N3N1OGI4bnNndXd3"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

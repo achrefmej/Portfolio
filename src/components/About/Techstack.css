@@ -1,0 +1,87 @@
+/* Techstack.css */
+.tech-icons {
+    color: white; /* Couleur initiale blanche */
+    transition: transform 0.2s, color 0.2s; /* Pour un effet de transition fluide */
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.1); /* Zoom léger lors du survol */
+  }
+  
+  /* Couleur des logos au survol */
+  .tech-icons:hover .DiPython {
+    color: #3776AB; /* Couleur Python */
+  }
+  
+  .tech-icons:hover .DiJavascript1 {
+    color: #F7DF1E; /* Couleur JavaScript */
+  }
+  
+  .tech-icons:hover .DiReact {
+    color: #61DAFB; /* Couleur React */
+  }
+  
+  .tech-icons:hover .DiNodejs {
+    color: #339933; /* Couleur Node.js */
+  }
+  
+  .tech-icons:hover .DiMongodb {
+    color: #47A248; /* Couleur MongoDB */
+  }
+  
+  .tech-icons:hover .DiGit {
+    color: #F05032; /* Couleur Git */
+  }
+  
+  .tech-icons:hover .SiKotlin {
+    color: #7F52FF; /* Couleur Kotlin */
+  }
+  
+  .tech-icons:hover .SiSwift {
+    color: #FA7343; /* Couleur Swift */
+  }
+  
+  .tech-icons:hover .SiSpringboot {
+    color: #6DB33F; /* Couleur Spring Boot */
+  }
+  
+  .tech-icons:hover .SiAngular {
+    color: #DD0031; /* Couleur Angular */
+  }
+  
+  .tech-icons:hover .SiIonic {
+    color: #3880FF; /* Couleur Ionic */
+  }
+  
+  .tech-icons:hover .SiUnity {
+    color: #000000; /* Couleur Unity */
+  }
+  
+  .tech-icons:hover .SiPostgresql {
+    color: #336791; /* Couleur PostgreSQL */
+  }
+  
+  .tech-icons:hover .SiMysql {
+    color: #4479A1; /* Couleur MySQL */
+  }
+  
+  .tech-icons:hover .SiDocker {
+    color: #2496ED; /* Couleur Docker */
+  }
+  
+  .tech-icons:hover .SiJenkins {
+    color: #D24939; /* Couleur Jenkins */
+  }
+  
+  .tech-icons:hover .SiAmazonaws {
+    color: #FF9900; /* Couleur AWS */
+  }
+  
+  .tech-icons:hover .SiFigma {
+    color: #F24E1E; /* Couleur Figma */
+  }
+  
+  .tech-icons:hover .SiAdobexd {
+    color: #FF61F6; /* Couleur Adobe XD */
+  }
+  

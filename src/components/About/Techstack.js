@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -11,81 +10,94 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiSymfony,
   SiPostgresql,
-  SiPhp,
+  SiMysql,
   SiKotlin,
   SiSwift,
   SiSpringboot,
-  SiStreamlit
-
+  SiDocker,
+  SiJenkins,
+  SiAmazonaws,
+  SiFigma,
+  SiAdobexd,
+  SiUnity,
+  SiAngular,
+  SiIonic,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import './Techstack.css';  // Assurez-vous d'importer le fichier CSS ici
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Langages de programmation */}
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-  
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSymfony />
-      </Col>
-  
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-   
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-  
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-   
-   
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiPython className="DiPython" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <DiJavascript1 className="DiJavascript1" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiKotlin />
+        <SiKotlin className="SiKotlin" />
       </Col>
-      
-     <Col xs={4} md={2} className="tech-icons">
-        <SiSwift />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSwift className="SiSwift" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIonic className="SiIonic" />
       </Col>
 
+      {/* Frameworks et outils */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
+        <DiNodejs className="DiNodejs" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact className="DiReact" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot className="SiSpringboot" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUnity className="SiUnity" />
       </Col>
 
+      {/* Bases de données */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiStreamlit />
+        <DiMongodb className="DiMongodb" />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql className="SiPostgresql" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql className="SiMysql" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular className="SiAngular" />
+      </Col>
+
+      {/* DevOps et outils */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker className="SiDocker" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins className="SiJenkins" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws className="SiAmazonaws" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit className="DiGit" />
+      </Col>
+
+      {/* Outils de prototypage */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma className="SiFigma" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd className="SiAdobexd" />
+      </Col>
     </Row>
   );
 }
