@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              PERMETTEZ-MOI DE ME <span className="purple"> PRÉSENTER </span>
+            Mon histoire en quelques <span className="purple">  mots </span>
             </h1>
             <p className="home-about-body">
               Je suis un ingénieur informatique diplômé, avec plusieurs expériences professionnelles et une forte implication dans l'entrepreneuriat.
@@ -48,7 +48,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>RETROUVEZ-MOI SUR</h1>
+            <h1>Restons en contact sur</h1>
             <p>
               N'hésitez pas à <span className="purple">me contacter </span> pour discuter de nouvelles opportunités !
             </p>
