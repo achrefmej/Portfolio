@@ -35,11 +35,20 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "typescript": "^4.9.5"
+  },
+  "overrides": {
+    "typescript": "^4.9.5"
   },
   "eslintConfig": {
     "extends": [
