@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { useTheme } from "../../context/ThemeContext";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import Tilt from "react-parallax-tilt";
+import TiltCard from "../ui/TiltCard";
 import {
   AiFillGithub,
   AiOutlineTwitter, 
@@ -343,7 +343,7 @@ function Home2() {
             </AboutContent>
 
             <ImageContainer variants={itemVariants}>
-              <Tilt
+              <TiltCard
                 className="image-wrapper"
                 tiltMaxAngleX={10}
                 tiltMaxAngleY={10}
@@ -353,7 +353,7 @@ function Home2() {
                 gyroscope={true}
               >
                 <img src={myImg} alt="Achref Mejri" />
-              </Tilt>
+              </TiltCard>
             </ImageContainer>
           </ContentGrid>
 
