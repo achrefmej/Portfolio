@@ -1,60 +1,39 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
-import Tesrimonials from "./Tesrimonials";
+import { motion } from "framer-motion";
+import UltraModernAbout from "./UltraModernAbout";
 
 function About() {
+  const pageVariants = {
+    initial: { opacity: 0, y: 50 },
+    in: { 
+      opacity: 1, 
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
+        staggerChildren: 0.2
+      }
+    },
+    out: { 
+      opacity: 0, 
+      y: -50,
+      transition: {
+        duration: 0.5,
+        ease: "easeIn"
+      }
+    }
+  };
+
   return (
-    <Container fluid className="about-section">
-      <Particle />
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            Explorez mon  <strong className="purple">parcours</strong>
-            </h1>
-            <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          <strong className="purple">Parcours Académique</strong>
-        </h1>
-
-        <Tesrimonials />
-
-        <h1 className="project-heading">
-          <strong className="purple">Compétences Professionnelles</strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Outils</strong> que j'utilise
-        </h1>
-        <Toolstack />
-
-        {/* <Github /> */}
-      </Container>
-    </Container>
+    <motion.div
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      style={{ minHeight: "100vh" }}
+    >
+      <UltraModernAbout />
+    </motion.div>
   );
 }
 

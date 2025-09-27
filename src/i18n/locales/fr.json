@@ -1,0 +1,507 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "resume": "CV",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "home": {
+    "greeting": "Salut !",
+    "name": "Je suis Achref Mejri",
+    "title": "Développeur Full Stack",
+    "subtitle": "Passionné par la création d'expériences numériques innovantes",
+    "description": "Je développe des applications web et mobiles modernes en utilisant les dernières technologies. Spécialisé en React, Node.js, et l'écosystème JavaScript.",
+    "cta": {
+      "projects": "Voir mes projets",
+      "contact": "Me contacter",
+      "resume": "Télécharger mon CV"
+    },
+    "titles": [
+      "Développeur Full Stack",
+      "Expert React & Node.js", 
+      "Architecte Solutions",
+      "Innovation Technologique",
+      "Mobile & Web Developer",
+      "DevOps & Cloud Engineer"
+    ]
+  },
+  "home2": {
+    "title": "Découvrez Mon Univers",
+    "subtitle": "Passionné par l'innovation",
+    "description": "Je suis un développeur qui transforme les idées en solutions digitales exceptionnelles. Chaque ligne de code que j'écris vise à créer des expériences utilisateur mémorables et des performances optimales.",
+    "highlight": "développement moderne",
+    "stats": {
+      "projects": "Projets Réalisés",
+      "experience": "Années d'Expérience", 
+      "technologies": "Technologies Maîtrisées",
+      "clients": "Satisfaction Client"
+    },
+    "projects": {
+      "title": "Mon parcours concret",
+      "subtitle": "Projets innovants qui font la différence",
+      "chatcount": "comptabilité intelligente (ChatCount)",
+      "easybank": "banque digitale (Easy Bank)",
+      "volo": "mobilité urbaine électrique (VOLO-BIKES)",
+      "description": "Polyvalent, je maîtrise l'ensemble du cycle de développement : du backend (Node.js, Python, GraphQL, PostgreSQL) au frontend (React, Next.js, TailwindCSS, shadcn/ui). Toujours à la recherche de défis innovants et d'opportunités internationales."
+    },
+    "techStack": {
+      "title": "Stack Technique",
+      "subtitle": "Technologies que j'utilise pour créer des solutions innovantes"
+    },
+    "skills": {
+      "title": "Technologies & Compétences",
+      "description": "Outils et technologies que je maîtrise"
+    },
+    "social": {
+      "title": "Restons en contact",
+      "description": "N'hésitez pas à me contacter pour discuter de nouvelles opportunités !",
+      "highlight": "me contacter"
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Découvrez qui je suis",
+    "greeting": "👋 Bonjour, je suis",
+    "name": "Achref Mejri",
+    "professionalTitle": "Ingénieur Full Stack | Expert en Développement Mobile & Web",
+    "description": "Passionné par les technologies innovantes, je crée des solutions digitales modernes et performantes. Avec plus de 4 ans d'expérience, je transforme les idées en applications exceptionnelles.",
+    "cta": {
+      "contact": "Me Contacter",
+      "downloadCV": "Télécharger CV"
+    },
+    "skills": {
+      "title": "Mes Compétences",
+      "frontend": "Développement Frontend",
+      "backend": "Développement Backend",
+      "database": "Base de Données", 
+      "mobile": "Mobile & Temps Réel",
+      "devops": "DevOps & Cloud",
+      "ai": "IA & Analytics",
+      "tools": "Outils & Technologies"
+    },
+    "experience": {
+      "title": "Mon Parcours",
+      "years": "Années d'expérience",
+      "projects": "Projets réalisés",
+      "clients": "clients satisfaits",
+      "data": {
+        "chatcount": {
+          "title": "Full Stack Developer - ChatCount (Chatbot IA)",
+          "company": "Binomial (Expertise Comptable)",
+          "period": "Déc 2024 - Présent",
+          "location": "Paris, France — Bureau de Tunis (Lac 1)",
+          "description": "Conception et développement de ChatCount, un assistant intelligent permettant aux utilisateurs d'interagir en langage naturel avec leurs bases FEC. Mise en œuvre d'un moteur d'analyse combinant NLP, reconnaissance de structures comptables, et génération automatique de requêtes MongoDB. Migration vers GraphQL & Next.js prévue mai 2025."
+        },
+        "easybank": {
+          "title": "Full Stack Developer (Frontend React/Next)",
+          "company": "Easy Bank",
+          "period": "Avr 2025 - Août 2025",
+          "location": "Remote (Mission freelance)",
+          "description": "Développement d'un dashboard admin multilingue pour la gestion bancaire complète. Implémentation de formulaires dynamiques, workflows d'onboarding, et système de notifications temps réel avec Socket.IO. Plateforme adoptée par plusieurs partenaires bancaires."
+        },
+        "volo": {
+          "title": "Co-founder & Full Stack Developer",
+          "company": "VOLO-BIKES - Projet de Fin d'Études",
+          "period": "Fév 2024 - Août 2024",
+          "location": "Tunisie",
+          "description": "Lancement d'une solution innovante de mobilité urbaine électrique pour la région MENA. Développement de trois modules : portail d'achat, application client mobile, et back-office opérationnel. Système de tracking GPS temps réel avec Mapbox. Projet labellisé 'Startup'."
+        },
+        "viribus": {
+          "title": "Part-Time Team Lead - Analytics Dashboard",
+          "company": "Viribus Centre",
+          "period": "Mar 2024 - Août 2024",
+          "location": "Freelance",
+          "description": "Conception d'un dashboard temps réel pour la gestion BIM & RDV avec visualisation des données et reporting. Déploiement AWS et scalabilité pour améliorer la prise de décision."
+        },
+        "esprit": {
+          "title": "Diplôme d'Ingénieur en Génie Logiciel",
+          "company": "ESPRIT School of Engineering",
+          "period": "2021 - 2024",
+          "location": "Tunis, Tunisie",
+          "description": "Spécialisation : Développement Web & Mobile. Moyenne générale obtenue : 15.18/20. Formation approfondie en technologies full-stack, intelligence artificielle et développement mobile."
+        },
+        "fst": {
+          "title": "Licence en Informatique",
+          "company": "Faculty of Sciences of Tunis El Manar (FST)",
+          "period": "2018 - 2021",
+          "location": "Tunis, Tunisie",
+          "description": "Parcours informatique général avec focus sur les fondamentaux : programmation, structures de données, bases de données, réseaux. Formation solide en mathématiques appliquées à l'informatique."
+        }
+      }
+    },
+    "services": {
+      "title": "Services",
+      "webDev": "Développement Web",
+      "webDevDesc": "Création d'applications web modernes et responsives",
+      "mobileDev": "Développement Mobile",
+      "mobileDevDesc": "Applications mobiles natives et cross-platform",
+      "uiux": "UI/UX Design",
+      "uiuxDesc": "Design d'interfaces utilisateur intuitives",
+      "consulting": "Consulting",
+      "consultingDesc": "Conseil en architecture et stratégie technique"
+    },
+    "contact": {
+      "email": {
+        "description": "Discutons de vos projets",
+        "action": "Envoyer un email"
+      },
+      "linkedin": {
+        "description": "Connectons-nous professionnellement",
+        "action": "Voir le profil"
+      },
+      "github": {
+        "description": "Explorez mes projets open source",
+        "action": "Voir les projets"
+      }
+    }
+  },
+  "projects": {
+    "title": "Mes Réalisations",
+    "subtitle": "Découvrez une sélection de projets innovants sur lesquels j'ai travaillé, allant des applications mobiles aux solutions web complexes.",
+    "viewProject": "Voir le projet",
+    "viewCode": "Voir le code",
+    "viewDetails": "Voir les détails",
+    "liveDemo": "Demo Live",
+    "detailedDescription": "Description détaillée",
+    "mainFeatures": "Fonctionnalités principales",
+    "techUsed": "Technologies utilisées",
+    "featured": "Projets phares",
+    "all": "Tous les projets",
+    "filters": {
+      "all": "Tous les projets",
+      "web": "Applications Web",
+      "mobile": "Applications Mobile",
+      "ai": "Intelligence Artificielle",
+      "devops": "DevOps & Cloud",
+      "productivity": "Productivité",
+      "mobility": "Mobilité",
+      "collaboration": "Collaboration",
+      "automation": "Automation"
+    },
+    "data": {
+      "easybank": {
+        "title": "EasyBank - Plateforme Fintech",
+        "description": "Plateforme fintech évolutive pour la gestion des services, offres, utilisateurs et onboarding avec évaluation de prêts alimentée par l'IA.",
+        "longDescription": "Chez Easy Bank, nous révolutionnons la banque personnelle en fournissant des solutions de prêt personnalisées grâce à notre plateforme numérique innovante. En tant que Chef d'équipe IT, j'ai orchestré l'architecture d'un tableau de bord d'administration multilingue, un système de notifications en temps réel et des flux de formulaires dynamiques. La plateforme propose une évaluation d'éligibilité aux prêts alimentée par l'IA, une expérience client fluide de la demande à l'approbation, et des services de conseil financier intégrés.",
+        "impact": "Adoptée par les principaux partenaires financiers ; alimentant de vrais pipelines d'onboarding de prêts",
+        "role": "Chef d'équipe IT & Scrum Master"
+      },
+      "notecontrol": {
+        "title": "Note-Control - Carnet Hybride Intelligent",
+        "description": "Système de carnet intelligent fusionnant le confort analogique avec la puissance numérique pour une expérience révolutionnaire de prise de notes.",
+        "longDescription": "Note-Control fait le pont entre l'écriture traditionnelle et l'organisation numérique avec reconnaissance d'écriture manuscrite en temps réel, synchronisation multi-appareils et fonctionnalités collaboratives. Le système offre une activation rapide basée sur QR, conversion d'écriture manuscrite en texte alimentée par l'IA, gestion intelligente des tâches et synchronisation inter-appareils. Réduit l'utilisation de papier de 70% et le temps d'organisation de 50%.",
+        "impact": "Testé avec 40 employés au Centre Viribus - 70% de réduction de papier, 50% d'économie de temps d'organisation",
+        "role": "Projet Hackathon"
+      },
+      "chatcount": {
+        "title": "ChatCount - Assistant IA Comptable",
+        "description": "Chatbot intelligent permettant d'interagir en langage naturel avec les bases FEC (Fichiers des Écritures Comptables) pour analyses et requêtes.",
+        "longDescription": "Solution innovante développée chez Binomial combinant NLP, reconnaissance de structures comptables et génération automatique de requêtes MongoDB. Révolutionne l'interaction avec les données comptables par le langage naturel."
+      },
+      "volobikes": {
+        "title": "VOLO-BIKES - Mobilité Électrique",
+        "description": "Solution complète de mobilité urbaine électrique : portail d'achat, app client mobile et back-office opérationnel.",
+        "longDescription": "Projet de fin d'études labellisé 'Startup' pour la région MENA. Système de tracking GPS temps réel avec Mapbox, analytics métier pour pilotage des indicateurs, et plateforme complète de gestion des véhicules électriques."
+      },
+      "dashboardbim": {
+        "title": "Dashboard BIM Viribus Centre",
+        "description": "Dashboard temps réel pour gestion BIM & RDV avec visualisation des données et reporting avancé.",
+        "longDescription": "Solution analytics temps réel déployée sur AWS avec scalabilité optimisée. Améliore significativement la prise de décision grâce à des visualisations de données sophistiquées et des rapports automatisés."
+      },
+      "chaoscontrol": {
+        "title": "Chaos Control - Espace de Travail Virtuel & Gestionnaire d'Événements",
+        "description": "Plateforme virtuelle pour coworking, collaboration et recrutement à distance conçue pour éliminer le besoin de bureaux physiques.",
+        "longDescription": "Chaos Control est un espace de travail virtuel basé sur le web permettant aux entreprises d'avoir des environnements virtuels personnalisables, de la collaboration en temps réel, du recrutement et des outils de gestion d'équipes à distance. Propose des environnements métavers, des bureaux virtuels personnalisables, planification de sessions, gestion de conférenciers et outils de recrutement avec suivi des candidatures. Utilisé dans des événements nationaux et conçu pour évoluer avec les besoins commerciaux modernes.",
+        "impact": "Finaliste au Metaverse Tunisian Summit 2023 - participation OST et OSTX",
+        "role": "Projet Hackathon"
+      },
+      "frippyapp": {
+        "title": "Frippy App - E-commerce Social",
+        "description": "Application mobile e-commerce social (iOS & Android) avec boutiques en ligne et streaming/chat temps réel.",
+        "longDescription": "Plateforme sociale innovante permettant la création de boutiques en ligne intégrées avec streaming live et chat temps réel pour booster l'engagement. Application native développée pour iOS et Android."
+      },
+      "devopsautomation": {
+        "title": "DevOps Automation - CI/CD & Qualité",
+        "description": "Pipeline DevOps complet avec tests automatiques, intégration continue et amélioration de la qualité logicielle.",
+        "longDescription": "Mise en place d'une chaîne DevOps complète utilisant GitHub, Docker, SonarQube et Jenkins. Automatisation des tests, déploiement continu et monitoring de la qualité du code pour projets Angular/Spring Boot."
+      },
+      "snitapp": {
+        "title": "Application Gestion Contentieux SNIT",
+        "description": "Application web-mobile pour gestion des contentieux avec workflows, suivi procès et migration de données.",
+        "longDescription": "Solution complète de gestion des contentieux pour la Société Nationale Immobilière de Tunisie. Inclut workflows automatisés, suivi des procès, pré-contentieux, statistiques avancées et système de traçabilité complet."
+      }
+    }
+  },
+  "resume": {
+    "title": "Mon Parcours",
+    "download": "Télécharger PDF",
+    "sections": {
+      "education": "Formation",
+      "experience": "Expérience",
+      "skills": "Compétences",
+      "certifications": "Certifications"
+    },
+    "skills": {
+      "programming": "Langages de programmation",
+      "frameworks": "Frameworks & Bibliothèques",
+      "databases": "Bases de données",
+      "tools": "Outils & Plateformes",
+      "soft": "Compétences relationnelles"
+    }
+  },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "subtitle": "Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter de vos besoins et voir comment je peux vous aider.",
+    "description": "Vous avez un projet en tête ? Une question ? N'hésitez pas à me contacter. Je serai ravi de discuter de la façon dont je peux vous aider à concrétiser vos idées.",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom complet",
+      "email": "Email", 
+      "emailPlaceholder": "votre.email@example.com",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sujet de votre message",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre projet ou votre besoin...",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi. Veuillez réessayer.",
+      "emailConfigured": "Formulaire EmailJS configuré - Les messages arrivent directement dans ma boîte mail !",
+      "orContact": "ou contactez-moi directement à"
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "availability": "Disponibilité",
+      "responseTime": "Temps de réponse",
+      "responseTimeValue": "Sous 24h"
+    },
+    "social": {
+      "title": "Retrouvez-moi sur",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    },
+    "cta": {
+      "email": "Écrivez-moi",
+      "phone": "Appelez-moi",
+      "schedule": "Planifier un appel"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "more": "En savoir plus",
+    "less": "Moins",
+    "completed": "Terminé",
+    "inProgress": "En cours"
+  },
+  "footer": {
+    "brand": "Achref Mejri",
+    "description": "Ingénieur Full Stack passionné par la création de solutions digitales innovantes. Spécialisé dans le développement web moderne, les applications mobiles et l'intelligence artificielle.",
+    "quickLinks": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "achrefmejri.dev@gmail.com",
+      "phone": "+216 50 556 323",
+      "location": "Tunisie"
+    },
+    "social": {
+      "title": "Réseaux sociaux",
+      "followMe": "Suivez-moi"
+    },
+    "copyright": "Tous droits réservés",
+    "madeWith": "Fait avec",
+    "and": "et",
+    "by": "par",
+    "backToTop": "Retour en haut"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre",
+    "toggle": "Changer de thème"
+  },
+  "language": {
+    "french": "Français",
+    "english": "English", 
+    "arabic": "العربية",
+    "select": "Choisir la langue"
+  },
+  "resumeDetail": {
+    "title": "Ingénieur Full Stack | Digital Architect IA • Real-Time Web • Scalable Solutions • Oriented Impact",
+    "description": "Ingénieur Full Stack passionné par la création de solutions digitales intelligentes et à fort impact. Je conçois et développe des produits web & mobile scalables, intégrant l'intelligence artificielle, des interfaces temps réel et une expérience utilisateur optimisée.",
+    "experience": {
+      "title": "Expérience Professionnelle",
+      "chatcount": {
+        "title": "Full Stack Developer - ChatCount (Chatbot IA)",
+        "company": "Binomial (Expertise Comptable)",
+        "period": "Déc 2024 - Présent",
+        "location": "Paris, France — Bureau de Tunis (Lac 1)",
+        "description": [
+          "Conception et développement de ChatCount, assistant intelligent pour bases FEC",
+          "Moteur d'analyse combinant NLP, reconnaissance structures comptables",
+          "Migration vers GraphQL & Next.js (prévue mai 2025)",
+          "Stack: Angular, Node.js, Python, MongoDB → GraphQL, Next.js"
+        ]
+      },
+      "easybank": {
+        "title": "Full Stack Developer (Frontend React/Next)",
+        "company": "Easy Bank",
+        "period": "Avr 2025 - Août 2025",
+        "location": "Remote (Mission freelance)",
+        "description": [
+          "Dashboard admin multilingue pour gestion bancaire complète",
+          "Formulaires dynamiques, workflows d'onboarding personnalisés",
+          "Notifications temps réel avec Socket.IO",
+          "Stack: Next.js, TailwindCSS, shadcn/ui, GraphQL, NestJS, PostgreSQL"
+        ]
+      },
+      "volobikes": {
+        "title": "Co-founder & Full Stack Developer",
+        "company": "VOLO-BIKES - Projet de Fin d'Études",
+        "period": "Fév 2024 - Août 2024",
+        "location": "Tunisie",
+        "description": [
+          "Solution innovante mobilité urbaine électrique région MENA",
+          "Système tracking GPS temps réel basé Mapbox et Socket.IO",
+          "Analytics métier: taux utilisation, alertes maintenance, heatmaps",
+          "Projet labellisé 'Startup', présenté salons d'innovation"
+        ]
+      },
+      "viribus": {
+        "title": "Part-Time Team Lead - Real-Time Analytics Dashboard",
+        "company": "Viribus Centre",
+        "period": "Mar 2024 - Août 2024",
+        "location": "Freelance",
+        "description": [
+          "Conception d'un dashboard temps réel pour la gestion BIM & RDV",
+          "Visualisation des données & reporting métier",
+          "Déploiement AWS et scalabilité, amélioration de la prise de décision",
+          "Stack: Angular, Node.js, MongoDB, AWS"
+        ]
+      },
+      "globalenr": {
+        "title": "Summer Intern - Web Development",
+        "company": "Global ENR",
+        "period": "Été 2023",
+        "location": "Tunis, Lac 2",
+        "description": [
+          "Participation à la conception d'applications Web RH",
+          "Conception d'un CRM complet",
+          "Stack: Spring Boot, Angular, MongoDB"
+        ]
+      },
+      "esprit": {
+        "title": "Summer Intern - Software Engineer",
+        "company": "ESPRIT - Département Mobile",
+        "period": "Juin 2023 - Août 2023",
+        "location": "Tunisie",
+        "description": [
+          "Développement d'un chatbot de lecture de fichiers (ChatGPT API)",
+          "Stack: Python, Streamlit, Flask, MongoDB"
+        ]
+      },
+      "northevents": {
+        "title": "Summer Intern - Web Developer",
+        "company": "North Events",
+        "period": "Mars 2021 - Juin 2021",
+        "location": "Tunisie",
+        "description": [
+          "Réalisation d'interfaces Web avec React",
+          "Stack: Node.js, React.js, MongoDB"
+        ]
+      },
+      "snit": {
+        "title": "End-of-Studies Internship (Licence) - Backend Developer",
+        "company": "Société Nationale Immobilière de Tunisie (SNIT)",
+        "period": "Juin 2022 - Août 2022",
+        "location": "Tunisie",
+        "description": [
+          "Application Gestion des contentieux (web-mobile) : workflows, suivi processus",
+          "Pré-contentieux, migration/import de données, recherche, export état de sortie",
+          "Profils, statistiques, traçabilité, alertes",
+          "Stack: CodeIgniter, PHP, ExpressJs, React, NodeJs, Doctrine2, MySQL"
+        ]
+      }
+    },
+    "education": {
+      "title": "Formation",
+      "master": {
+        "title": "Mastère Professionnel en Développement des Systèmes d'Information (DSI)",
+        "school": "ESPRIT School of Engineering",
+        "period": "2021 - 2024",
+        "location": "Tunis, Tunisie",
+        "details": [
+          "Moyenne générale: 13.60/20",
+          "Spécialisation: Développement Logiciel & Intelligence Artificielle",
+          "Projet de fin d'études: VOLO-BIKES (Startup mobilité urbaine électrique)",
+          "Stage final: Binomial - ChatCount (Assistant IA pour expertise comptable)"
+        ]
+      },
+      "bachelor": {
+        "title": "Licence Appliquée en Technologies de l'Informatique",
+        "school": "Faculté des Sciences de Tunis (FST)",
+        "period": "2018 - 2021",
+        "location": "Tunis, Tunisie",
+        "details": [
+          "Spécialisation en développement logiciel et systèmes d'information",
+          "Formation en programmation avancée et bases de données",
+          "Projets académiques en développement web et mobile"
+        ]
+      },
+      "highschool": {
+        "title": "Baccalauréat Sciences Techniques",
+        "school": "Lycée Secondaire",
+        "period": "2018",
+        "location": "Tunisie",
+        "details": [
+          "Section Sciences Techniques avec mention",
+          "Spécialisation mathématiques et sciences physiques",
+          "Base solide pour les études d'ingénierie"
+        ]
+      }
+    },
+    "skills": {
+      "title": "Compétences Techniques",
+      "frontend": {
+        "title": "Frontend Development",
+        "skills": ["React.js", "Next.js", "Angular", "TypeScript", "JavaScript", "HTML5/CSS3", "TailwindCSS", "shadcn/ui", "Styled Components", "Framer Motion"]
+      },
+      "backend": {
+        "title": "Backend Development",
+        "skills": ["Node.js", "Python", "NestJS", "Express.js", "Spring Boot", "PHP", "CodeIgniter", "RESTful APIs", "GraphQL"]
+      },
+      "database": {
+        "title": "Databases & Cloud",
+        "skills": ["PostgreSQL", "MongoDB", "MySQL", "AWS", "Docker", "Socket.IO", "Redis", "Doctrine2"]
+      },
+      "tools": {
+        "title": "Tools & Technologies",
+        "skills": ["Git/GitHub", "VS Code", "Postman", "Figma", "Jira", "Streamlit", "Flask", "Mapbox API", "ChatGPT API"]
+      }
+    },
+    "intro": "Mon parcours m'a permis de travailler sur des projets concrets dans des secteurs variés :\\n• Comptabilité intelligente (ChatCount avec Binomial)\\n• Banque digitale & dashboard client (Easy Bank)\\n• Mobilité urbaine électrique (VOLO-BIKES, PFE)\\n\\nPolyvalent, je maîtrise l'ensemble du cycle de développement :\\ndu backend (Node.js, Python, GraphQL, PostgreSQL) jusqu'au frontend (React, Angular, Next.js, TailwindCSS , shadcn/ui).\\n\\nJe suis motivé par l'envie de créer des produits utiles, bien conçus et techniquement solides.\\nToujours à la recherche de défis innovants, d'opportunités internationales et de projets orientés impact.",
+    "name": "Mejri Achref",
+    "profileTitle": "Profil",
+    "downloadCV": "Télécharger CV"
+  },
+  "navbar": {
+    "name": "Achref Mejri",
+    "title": "Ingénieur Full-Stack"
+  }
+}
