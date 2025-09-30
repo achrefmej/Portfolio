@@ -2,9 +2,11 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../../context/ThemeContext';
 import ModernParticles from '../ui/ModernParticles';
 import ModernType from '../ui/ModernType';
+import CVDownloader from '../ui/CVDownloader';
 import { 
   FaGithub, 
   FaLinkedin, 
@@ -113,12 +115,14 @@ const PrimaryButton = styled(motion.a)`
   background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
   color: white;
   text-decoration: none;
+  border: none;
   border-radius: 12px;
   font-weight: 600;
   font-size: 1.1rem;
   box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 
   &:before {
     content: '';
@@ -291,6 +295,7 @@ const ModernHero = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -367,7 +372,8 @@ const ModernHero = () => {
 
               <CTAButtons variants={itemVariants}>
                 <PrimaryButton
-                  href="#projets"
+                  as="button"
+                  onClick={() => navigate('/project')}
                   whileHover={{ y: -3 }}
                   whileTap={{ y: 0 }}
                 >
@@ -375,15 +381,7 @@ const ModernHero = () => {
                   {t('home.cta.projects')}
                 </PrimaryButton>
                 
-                <SecondaryButton
-                  href={require("../../Assets/cv_2025_mejri_fr.pdf")}
-                  download="CV_Achref_Mejri_2025.pdf"
-                  whileHover={{ y: -3 }}
-                  whileTap={{ y: 0 }}
-                >
-                  <FaDownload />
-                  {t('home.cta.resume')}
-                </SecondaryButton>
+                <CVDownloader />
               </CTAButtons>
 
               <SocialLinks variants={itemVariants}>

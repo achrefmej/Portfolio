@@ -22,6 +22,7 @@ import {
   FaGithub,
   FaEnvelope,
   FaDownload,
+  FaPhone,
   FaCalendarAlt,
   FaMapMarkerAlt,
   FaPlay,
@@ -978,7 +979,7 @@ function UltraModernAbout() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <FaDownload />
+                  <FaPhone />
                   +216 50 55 63 23
                 </SecondaryButton>
               </CTAButtons>
