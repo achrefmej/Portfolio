@@ -42,11 +42,6 @@ button:focus {
   opacity: 0;
 }
 
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
 /* When the mobile full-screen menu is open we add a class to body instead
    of using inline styles. This prevents leftover inline overflow styles and
    avoids using utility selectors that break scrolling. */
@@ -55,6 +50,8 @@ button:focus {
      Avoid forcing height:100vh because that can cause layout issues on mobile
      with safe-area insets and cause the white column. */
   overflow: hidden !important;
+  position: fixed;
+  width: 100%;
 }
 
 /* When overlay menu open, remove mobile paddings so the overlay covers
@@ -70,12 +67,16 @@ body.menu-open {
 html, body {
   width: 100%;
   overflow-x: hidden;
+  overflow-y: auto; /* Ensure vertical scroll is always possible */
+  height: auto; /* Allow body to grow with content */
+  min-height: 100vh;
 }
 
 /* Ensure the main app container can receive mobile paddings instead of body */
 .App {
   min-height: 100vh;
   display: block;
+  position: relative;
 }
 
 /* --------- */

@@ -28,7 +28,7 @@ const MobileHeroSection = styled.section`
   );
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 `;
 
 const ProfileImageContainer = styled(motion.div)`

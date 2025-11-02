@@ -117,7 +117,11 @@ function App() {
 
         <div 
           className="App" 
-          id={load ? "no-scroll" : "scroll"}
+          id="scroll"
+          style={{
+            overflow: load ? 'hidden' : 'visible',
+            height: load ? '100vh' : 'auto'
+          }}
         >
           {isMobile ? <MobileNavbar /> : <Navbar />}
           <ScrollToTop />
