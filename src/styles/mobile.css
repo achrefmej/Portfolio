@@ -17,11 +17,13 @@
 
 /* Ajustements pour les navigations mobiles */
 @media (max-width: 768px) {
-  /* Force scroll capability on mobile */
+  /* CRITICAL: Force scroll capability on mobile devices */
   html {
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
     -webkit-overflow-scrolling: touch !important;
     height: 100% !important;
+    touch-action: pan-y !important; /* Allow vertical panning/scrolling */
   }
 
   /* Padding pour compenser les barres de navigation */
@@ -30,11 +32,12 @@
      at the end of the document). */
   body {
     padding: 0;
-    overflow-y: visible !important;
+    overflow-y: auto !important;
     overflow-x: hidden !important;
     height: auto !important;
     min-height: 100% !important;
     position: relative !important;
+    touch-action: pan-y !important; /* Allow vertical scrolling */
   }
 
   /* Conteneur principal */
@@ -44,6 +47,7 @@
     padding-bottom: calc(var(--mobile-bottom-nav-height) + var(--mobile-safe-area-bottom));
     overflow: visible !important;
     height: auto !important;
+    touch-action: pan-y !important; /* Allow vertical scrolling */
   }
 
   /* Sections doivent avoir un espacement approprié */
