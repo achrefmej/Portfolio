@@ -5,7 +5,37 @@
     "projects": "Projets",
     "resume": "CV",
     "contact": "Contact",
-    "downloadCV": "Télécharger CV"
+    "downloadCV": "Télécharger CV",
+    "developer": "Développeur"
+  },
+  "menu": {
+    "navigation": "NAVIGATION",
+    "settings": "PARAMÈTRES",
+    "download": "TÉLÉCHARGEMENT",
+    "social": "RÉSEAUX SOCIAUX",
+    "title": "Menu",
+    "links": {
+      "home": { "description": "Découvrez mon profil" },
+      "about": { "description": "Parcours & compétences" },
+      "projects": { "description": "Mes réalisations" },
+      "resume": { "description": "Télécharger mon CV" }
+    },
+    "contact": { "description": "Envoyez-moi un message" }
+  },
+  "hero": {
+    "greeting": "Salut !",
+    "name": "Je suis Achref Mejri",
+    "title": "Développeur Full Stack",
+    "subtitle": "Passionné par la création d'expériences numériques innovantes",
+    "description": "Je développe des applications web et mobiles modernes en utilisant les dernières technologies. Spécialisé en React, Node.js, et l'écosystème JavaScript.",
+    "viewProjects": "Voir mes projets",
+    "downloadCV": "Télécharger mon CV",
+    "contactMe": "Me contacter",
+    "stats": {
+      "experience": "Années d'expérience",
+      "projects": "Projets complétés",
+      "clients": "Clients satisfaits"
+    }
   },
   "home": {
     "greeting": "Salut !",
@@ -65,8 +95,24 @@
     "subtitle": "Découvrez qui je suis",
     "greeting": "👋 Bonjour, je suis",
     "name": "Achref Mejri",
+    "role": "Développeur Full Stack",
+    "bio": "Passionné par les technologies innovantes, je crée des solutions digitales modernes et performantes. Avec plus de 4 ans d'expérience, je transforme les idées en applications exceptionnelles.",
     "professionalTitle": "Ingénieur Full Stack | Expert en Développement Mobile & Web",
     "description": "Passionné par les technologies innovantes, je crée des solutions digitales modernes et performantes. Avec plus de 4 ans d'expérience, je transforme les idées en applications exceptionnelles.",
+    "titles": [
+      "Développeur Full Stack",
+      "Expert React & Node.js",
+      "Architecte Solutions",
+      "Ingénieur Logiciel",
+      "Développeur Mobile",
+      "Expert DevOps & Cloud"
+    ],
+    "stats": {
+      "experience": "Années d'expérience",
+      "projects": "Projets réalisés",
+      "clients": "Clients satisfaits",
+      "satisfaction": "Satisfaction"
+    },
     "cta": {
       "contact": "Me Contacter",
       "downloadCV": "Télécharger CV"
@@ -317,7 +363,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "achrefmejri.dev@gmail.com",
+      "email": "mejri.achref.working@gmail.com",
       "phone": "+216 50 556 323",
       "location": "Tunisie"
     },

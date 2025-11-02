@@ -373,17 +373,17 @@ const ModernContact = () => {
     {
       icon: FaEnvelope,
       title: t('contact.info.email'),
-      content: "mejri.achref.working@gmail.com"
+      content: t('footer.contact.email') || 'mejri.achref.working@gmail.com'
     },
     {
       icon: FaPhone,
       title: t('contact.info.phone'),
-      content: "+216 50 556 323"
+      content: t('footer.contact.phone') || '+216 50 556 323'
     },
     {
       icon: FaMapMarkerAlt,
       title: t('contact.info.location'),
-      content: "Tunis, Tunisia"
+      content: t('footer.contact.location') || 'Tunis, Tunisia'
     }
   ];
 
@@ -391,17 +391,17 @@ const ModernContact = () => {
     {
       href: "https://github.com/achrefmej",
       icon: FaGithub,
-      label: "GitHub"
+      label: t('footer.social.github') || 'GitHub'
     },
     {
       href: "https://www.linkedin.com/in/achref-mejri-8a9253179/",
       icon: FaLinkedin,
-      label: "LinkedIn"
+      label: t('footer.social.linkedin') || 'LinkedIn'
     },
     {
       href: "https://x.com/MejriAchref4",
       icon: FaTwitter,
-      label: "Twitter"
+      label: t('footer.social.twitter') || 'Twitter'
     }
   ];
 

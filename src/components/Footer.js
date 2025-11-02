@@ -25,6 +25,11 @@ const FooterContainer = styled.footer`
   position: relative;
   overflow: hidden;
 
+  @media (max-width: 768px) {
+    /* extend footer background to fill area reserved for bottom nav */
+    padding-bottom: calc(var(--mobile-bottom-nav-height) + var(--mobile-safe-area-bottom) + 1.25rem);
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -201,8 +206,9 @@ const FooterBottom = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
     text-align: center;
+    padding-top: 1rem;
   }
 `;
 

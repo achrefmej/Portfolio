@@ -7,10 +7,15 @@ import AOS from "aos";
 // Context
 import { ThemeProvider } from "./context/ThemeContext";
 
+// Hooks
+import useResponsive from "./hooks/useResponsive";
+import useMobileOptimization from "./hooks/useMobileOptimization";
+
 // Styles
 import "./styles/rtl.css";
+import "./styles/mobile.css";
 
-// Components
+// Components Desktop
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -19,6 +24,15 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
+
+// Components Mobile
+import MobileNavbar from "./components/Mobile/MobileNavbar";
+import MobileHero from "./components/Mobile/MobileHero";
+import MobileAbout from "./components/Mobile/MobileAbout";
+import MobileProjects from "./components/Mobile/MobileProjects";
+import MobileContact from "./components/Mobile/MobileContact";
+import MobileResume from "./components/Mobile/MobileResume";
+import MobileFooter from "./components/Mobile/MobileFooter";
 
 // Styles
 import "./styles/modern.css";
@@ -29,6 +43,15 @@ import "aos/dist/aos.css";
 
 function App() {
   const [load, updateLoad] = useState(true);
+  const { isMobile, width } = useResponsive();
+  
+  // Optimisations pour mobile
+  useMobileOptimization();
+
+  // Debug log
+  useEffect(() => {
+    console.log('🔍 Responsive Debug:', { isMobile, width, innerWidth: window.innerWidth });
+  }, [isMobile, width]);
 
   useEffect(() => {
     // Initialiser AOS pour les animations au scroll
@@ -37,6 +60,8 @@ function App() {
       easing: 'ease-in-out-cubic',
       once: true,
       offset: 100,
+      // Désactiver les animations sur mobile pour améliorer les performances
+      disable: isMobile ? 'mobile' : false,
     });
 
     const timer = setTimeout(() => {
@@ -44,7 +69,7 @@ function App() {
     }, 1200);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [isMobile]);
 
   const pageVariants = {
     initial: { opacity: 0, y: 20 },
@@ -58,33 +83,56 @@ function App() {
     duration: 0.5
   };
 
+  // Composant Home adaptatif
+  const AdaptiveHome = () => (
+    isMobile ? (
+      <>
+        <MobileHero />
+        <MobileContact />
+      </>
+    ) : (
+      <Home />
+    )
+  );
+
+  // Composant About adaptatif
+  const AdaptiveAbout = () => (
+    isMobile ? <MobileAbout /> : <About />
+  );
+
+  // Composant Projects adaptatif
+  const AdaptiveProjects = () => (
+    isMobile ? <MobileProjects /> : <Projects />
+  );
+
+  // Composant Resume adaptatif
+  const AdaptiveResume = () => (
+    isMobile ? <MobileResume /> : <Resume />
+  );
+
   return (
     <ThemeProvider>
       <Router>
         <Preloader load={load} />
-        <motion.div 
+
+        <div 
           className="App" 
           id={load ? "no-scroll" : "scroll"}
-          initial="initial"
-          animate="in"
-          exit="out"
-          variants={pageVariants}
-          transition={pageTransition}
         >
-          <Navbar />
+          {isMobile ? <MobileNavbar /> : <Navbar />}
           <ScrollToTop />
           
           <AnimatePresence mode="wait">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/project" element={<Projects />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path="/" element={<AdaptiveHome />} />
+              <Route path="/project" element={<AdaptiveProjects />} />
+              <Route path="/about" element={<AdaptiveAbout />} />
+              <Route path="/resume" element={<AdaptiveResume />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </AnimatePresence>
           
-          <Footer />
+          {!isMobile && <Footer />}
           
           {/* Toast notifications */}
           <Toaster
@@ -112,7 +160,7 @@ function App() {
               },
             }}
           />
-        </motion.div>
+        </div>
       </Router>
     </ThemeProvider>
   );

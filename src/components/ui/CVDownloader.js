@@ -107,14 +107,14 @@ function CVDownloader({ className = "", isMobile = false }) {
   const cvOptions = [
     {
       lang: 'fr',
-      label: 'Français',
+      label: t('language.french') || 'Français',
       flag: '🇫🇷',
       file: require("../../Assets/cv_2025_mejri_fr.pdf"),
       fileName: "CV_Achref_Mejri_2025_FR.pdf"
     },
     {
       lang: 'en',
-      label: 'English',
+      label: t('language.english') || 'English',
       flag: '🇺🇸',
       file: require("../../Assets/cv_2025_mejri_ang.pdf"),
       fileName: "CV_Achref_Mejri_2025_EN.pdf"

@@ -36,7 +36,7 @@ import VICTORIOUS from "../../Assets/Projects/demo1.gif";
 
 const ProjectsSection = styled.section`
   min-height: 100vh;
-  padding: 8rem 0; /* Augmenter de 6rem à 8rem pour plus d'espace */
+  padding: 6rem 0;
   background: var(--bg-primary);
   position: relative;
   overflow: hidden;

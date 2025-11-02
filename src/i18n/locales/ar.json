@@ -1,11 +1,25 @@
 {
   "nav": {
     "home": "الرئيسية",
-    "about": "حولي",
+    "about": "حول",
     "projects": "المشاريع",
     "resume": "السيرة الذاتية",
     "contact": "تواصل معي",
     "downloadCV": "تحميل السيرة الذاتية"
+  },
+  "menu": {
+    "navigation": "التنقل",
+    "settings": "الإعدادات",
+    "download": "تحميل",
+    "social": "وسائل التواصل الاجتماعي",
+    "title": "القائمة",
+    "links": {
+      "home": { "description": "اكتشف ملفي الشخصي" },
+      "about": { "description": "مسيرتي ومهاراتي" },
+      "projects": { "description": "مشاريعي" },
+      "resume": { "description": "تحميل سيرتي الذاتية" }
+    },
+    "contact": { "description": "أرسل لي رسالة" }
   },
   "home": {
     "greeting": "مرحباً!",
@@ -20,7 +34,7 @@
     },
     "titles": [
       "مطور ويب متكامل",
-      "خبير React و Node.js", 
+      "خبير React و Node.js",
       "مهندس حلول",
       "الابتكار التقني",
       "مطور تطبيقات ويب وموبايل",
@@ -53,12 +67,24 @@
     }
   },
   "about": {
-    "title": "حولي",
+    "title": "حول",
     "subtitle": "اكتشف من أكون",
     "greeting": "👋 مرحباً، أنا",
     "name": "أشرف مجري",
-    "professionalTitle": "مهندس فول ستاك | مهندس رقمي للذكاء الاصطناعي • الويب الفوري • حلول قابلة للتطوير • موجه للتأثير",
-    "description": "مهندس فول ستاك شغوف بإنشاء حلول رقمية ذكية وعالية التأثير. أقوم بتصميم وتطوير منتجات ويب وموبايل قابلة للتطوير، مع دمج الذكاء الاصطناعي وواجهات الوقت الفعلي وتجربة مستخدم محسنة. متعدد المهارات، أتقن دورة التطوير الكاملة: من الخلفية (Node.js، Python، GraphQL، PostgreSQL) إلى الواجهة الأمامية (React، Angular، Next.js، TailwindCSS، shadcn/ui).",
+    "titles": [
+      "مطور ويب متكامل",
+      "خبير React و Node.js",
+      "مهندس حلول",
+      "الابتكار التقني",
+      "مطور تطبيقات ويب وموبايل",
+      "مهندس DevOps والحوسبة السحابية"
+    ],
+    "stats": {
+      "experience": "سنوات من الخبرة",
+      "projects": "مشروع مكتمل",
+      "clients": "عميل راضٍ",
+      "satisfaction": "الرضا"
+    },
     "cta": {
       "contact": "تواصل معي",
       "downloadCV": "تحميل السيرة الذاتية"
@@ -284,7 +310,7 @@
     },
     "contact": {
       "title": "التواصل",
-      "email": "achrefmejri.dev@gmail.com",
+      "email": "mejri.achref.working@gmail.com",
       "phone": "+216 50 556 323",
       "location": "تونس"
     },

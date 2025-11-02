@@ -5,7 +5,37 @@
     "projects": "Projects",
     "resume": "Resume",
     "contact": "Contact",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "developer": "Developer"
+  },
+  "menu": {
+    "navigation": "NAVIGATION",
+    "settings": "SETTINGS",
+    "download": "DOWNLOAD",
+    "social": "SOCIAL MEDIA",
+    "title": "Menu",
+    "links": {
+      "home": { "description": "Discover my profile" },
+      "about": { "description": "Journey & skills" },
+      "projects": { "description": "My projects" },
+      "resume": { "description": "Download my CV" }
+    },
+    "contact": { "description": "Send me a message" }
+  },
+  "hero": {
+    "greeting": "Hi there!",
+    "name": "I'm Achref Mejri",
+    "title": "Full Stack Developer",
+    "subtitle": "Passionate about creating innovative digital experiences",
+    "description": "I develop modern web and mobile applications using the latest technologies. Specialized in React, Node.js, and the JavaScript ecosystem.",
+    "viewProjects": "View my projects",
+    "downloadCV": "Download my CV",
+    "contactMe": "Contact me",
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects completed",
+      "clients": "Happy clients"
+    }
   },
   "home": {
     "greeting": "Hi there!",
@@ -65,8 +95,24 @@
     "subtitle": "Discover who I am",
     "greeting": "👋 Hello, I'm",
     "name": "Achref Mejri",
+    "role": "Full Stack Developer",
+    "bio": "Full Stack Engineer passionate about creating intelligent digital solutions with high impact. I design and develop scalable web & mobile products, integrating artificial intelligence, real-time interfaces and optimized user experience.",
     "professionalTitle": "Full Stack Engineer | AI Digital Architect • Real-Time Web • Scalable Solutions • Impact Oriented",
     "description": "Full Stack Engineer passionate about creating intelligent digital solutions with high impact. I design and develop scalable web & mobile products, integrating artificial intelligence, real-time interfaces and optimized user experience. Versatile, I master the entire development cycle: from backend (Node.js, Python, GraphQL, PostgreSQL) to frontend (React, Angular, Next.js, TailwindCSS, shadcn/ui).",
+    "titles": [
+      "Full Stack Developer",
+      "React & Node.js Expert",
+      "Solutions Architect",
+      "Software Engineer",
+      "Mobile Developer",
+      "DevOps & Cloud Expert"
+    ],
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects completed",
+      "clients": "Happy clients",
+      "satisfaction": "Satisfaction"
+    },
     "cta": {
       "contact": "Contact Me",
       "downloadCV": "Download CV"
@@ -295,7 +341,7 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "achrefmejri.dev@gmail.com",
+      "email": "mejri.achref.working@gmail.com",
       "phone": "+216 50 556 323",
       "location": "Tunis, Tunisia"
     },
