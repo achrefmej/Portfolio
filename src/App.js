@@ -71,6 +71,19 @@ function App() {
     return () => clearTimeout(timer);
   }, [isMobile]);
 
+  // Force unlock scroll after preloader
+  useEffect(() => {
+    if (!load) {
+      // Ensure body can scroll after preloader
+      document.body.style.overflow = '';
+      document.body.style.height = '';
+      document.body.style.position = '';
+      
+      // Remove any lingering classes that might block scroll
+      document.body.classList.remove('menu-open');
+    }
+  }, [load]);
+
   const pageVariants = {
     initial: { opacity: 0, y: 20 },
     in: { opacity: 1, y: 0 },
@@ -118,10 +131,6 @@ function App() {
         <div 
           className="App" 
           id="scroll"
-          style={{
-            overflow: load ? 'hidden' : 'visible',
-            height: load ? '100vh' : 'auto'
-          }}
         >
           {isMobile ? <MobileNavbar /> : <Navbar />}
           <ScrollToTop />

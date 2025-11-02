@@ -17,12 +17,24 @@
 
 /* Ajustements pour les navigations mobiles */
 @media (max-width: 768px) {
+  /* Force scroll capability on mobile */
+  html {
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+    height: 100% !important;
+  }
+
   /* Padding pour compenser les barres de navigation */
   /* Apply safe paddings to the main App container instead of body to avoid
      leaving an empty area after the footer (body padding creates space
      at the end of the document). */
   body {
     padding: 0;
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
+    height: auto !important;
+    min-height: 100% !important;
+    position: relative !important;
   }
 
   /* Conteneur principal */
@@ -30,6 +42,8 @@
     min-height: 100vh;
     padding-top: var(--mobile-top-nav-height);
     padding-bottom: calc(var(--mobile-bottom-nav-height) + var(--mobile-safe-area-bottom));
+    overflow: visible !important;
+    height: auto !important;
   }
 
   /* Sections doivent avoir un espacement approprié */
